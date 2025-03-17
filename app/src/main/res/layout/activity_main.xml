@@ -16,6 +16,29 @@
         android:src="@drawable/firebase"
         android:contentDescription="@string/app_name" />
 
-
-
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:background="@drawable/button_background_one"
+        android:text="@string/login_email"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:drawableStart="@drawable/ic_email" />
+    
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/button_background_two"
+        android:text="@string/login_phone"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:drawableStart="@drawable/ic_phone" />
+    
 </LinearLayout>
